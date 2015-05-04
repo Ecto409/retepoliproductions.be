@@ -1,0 +1,879 @@
+/*Reset + General*/
+
+body, p, h1, h2, h3, ol, ul, li, a {
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face {
+    font-family: 'SpecialEliteRegular';
+    src: url('SpecialElite-webfont.eot');
+    src: url('SpecialElite-webfont.eot?#iefix') format('embedded-opentype'),
+         url('SpecialElite-webfont.woff') format('woff'),
+         url('SpecialElite-webfont.ttf') format('truetype'),
+         url('SpecialElite-webfont.svg#SpecialEliteRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+mark{
+	color: #800000;
+	font-weight:regular;
+	background:none; 
+}
+
+span{
+	font-size:20px;
+	text-transform:
+}
+
+#logo{
+	position:absolute;
+	bottom:10px;
+	right:50px;
+	z-index:1000;
+}
+
+.nav{
+	position: absolute;
+	z-index: 2;	
+}
+
+#copyright{
+	position:absolute;
+	bottom:20px;
+	left:60px;
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif;
+	text-decoration:underline;
+	color:white;
+	opacity:0.9;
+	font-size:12px; 
+}
+
+#copyright a{
+	color:white; 
+}
+
+/*Index*/
+
+#indexfond {
+	background-image: url(images/fondindex.jpg);
+	overflow:hidden;
+	-webkit-background-size: cover; /* pour Chrome et Safari */
+  	-moz-background-size: cover; /* pour Firefox */
+  	-o-background-size: cover; /* pour Opera */
+  	background-size: cover;
+  	background-repeat: no-repeat; 
+}
+
+#indexfond #menu{
+	position:absolute;
+	top:100px;
+	left:60px;
+	color: #800000; 
+	text-decoration: none;
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 0.8em;
+	font-size: 52px;
+}
+
+#indexfond #menu a{
+	color: #800000; 
+	text-decoration: none;
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 0.85em;
+	font-size: 46px;
+	opacity: 0.9;
+}
+
+#indexfond #menutop a{
+	color: #111;
+	text-decoration: none;
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 0.85em;
+	font-size: 46px;
+}
+
+#indexfond #menu a:hover{
+	color: #FFF;
+	opacity:0.8;
+}
+
+/*Agenda*/
+
+#agendafond {
+	background-image:url(images/marie.jpg);
+	overflow:hidden;
+	-webkit-background-size: cover; /* pour Chrome et Safari */
+  	-moz-background-size: cover; /* pour Firefox */
+  	-o-background-size: cover; /* pour Opera */
+  	background-size: cover;
+  	background-repeat: no-repeat; 
+}
+
+#agendafond #menu{
+	position:absolute;
+	top:100px;
+	left:60px;
+	color: #800000; 
+	text-decoration: none;
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 0.85em;
+	font-size: 52px;
+}
+
+#agendafond #menu a{
+	color: #800000; 
+	text-decoration: none;
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 0.85em;
+	font-size: 46px;
+	opacity: 0.9;
+}
+
+#agendafond #menu a:hover{
+	color: #FFF;
+	opacity:0.8;
+}
+
+#agendafond #content{
+	position:absolute;
+	top:250px;
+	left:60px;
+	color: #FFF; 
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 1.2em;
+	font-weight: medium;
+	font-size: 18px;
+	opacity:0.9;
+}
+
+
+#agendafond #content a{
+	text-decoration: none;
+	color:#FFF;
+	opacity:0.9;
+}
+
+/*Contact*/
+
+#contactsfond {
+	background-image:url(images/felix.jpg);
+	overflow:hidden;
+	-webkit-background-size: cover; /* pour Chrome et Safari */
+  	-moz-background-size: cover; /* pour Firefox */
+  	-o-background-size: cover; /* pour Opera */
+  	background-size: cover;
+  	background-repeat: no-repeat; 
+}
+
+#contactsfond #menu {
+	position:absolute;
+	top:100px;
+	left:60px;
+	color: #800000; 
+	text-decoration: none;
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 0.85em;
+	font-size: 52px;
+}
+
+#contactsfond #menu a{
+	color: #800000; 
+	text-decoration: none;
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 0.85em;
+	font-size: 46px;
+	opacity: 0.9;
+}
+
+#contactsfond #menu a:hover{
+	color: #FFF;
+	opacity:0.8;
+}
+
+#contactsfond #content{
+	position:absolute;
+	top:250px;
+	left:60px;
+	color: #FFF; 
+	opacity: 0.9;
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 1.2em;
+	font-weight: medium;
+	font-size: 18px;
+}
+
+/*Liens*/
+
+#liensfond {
+	background-image: url(images/olivier.jpg);
+	overflow:hidden;
+	-webkit-background-size: cover; /* pour Chrome et Safari */
+  	-moz-background-size: cover; /* pour Firefox */
+  	-o-background-size: cover; /* pour Opera */
+  	background-size: cover;
+  	background-repeat: no-repeat; 
+}
+
+#liensfond #menu {
+	position:absolute;
+	top:100px;
+	left:60px;
+	color: #800000; 
+	text-decoration: none;
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 0.85em;
+	font-size: 52px;
+}
+
+#liensfond #menu a{
+	color: #800000; 
+	text-decoration: none;
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 0.85em;
+	font-size: 46px;
+	opacity: 0.9;
+}
+
+#liensfond #menu a:hover{
+	color: #FFF;
+	opacity:0.8;
+}
+
+#liensfond #content{
+	position:absolute;
+	top:250px;
+	left:60px;
+	color: #111; 
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 1.2em;
+	font-weight: medium;
+	font-size: 18px;
+}
+
+#liensfond #content a{
+	text-decoration: none;
+	color:#111;
+}
+
+/*Reste Poli Productions*/
+
+#restepoliproductions{
+	background-color:black;
+	overflow:hidden;
+	width:1280px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:90px;
+}
+
+#restepoliproductions a
+{
+text-decoration: none;
+margin-left: 5px;
+}
+
+#restepoliproductions #sanslien
+{
+text-decoration: none;
+margin-left: 5px;
+}
+
+
+
+#restepoliproductions a:hover
+{
+text-decoration: none;
+opacity: ;
+}
+
+/*Spectacles*/
+
+#spectacles
+{
+background-color:black;
+width:1280px;
+margin-left:auto;
+margin-right:auto;
+}
+
+#affiches
+{
+margin-top: 12px;
+margin-left: 7px;
+display: inline-block;
+vertical-align: center;
+}
+
+#affiches a:hover
+{
+	opacity:0.8;
+}
+
+/*Je voudrais pas crever*/
+
+#jevoudraispascreverfond {
+	background-image: url(images/fondjevoudraispascrever.jpg);
+	overflow:hidden;
+	-webkit-background-size: cover; /* pour Chrome et Safari */
+  	-moz-background-size: cover; /* pour Firefox */
+  	-o-background-size: cover; /* pour Opera */
+  	background-size: cover;
+  	background-repeat: no-repeat; 
+}
+
+#jevoudraispascreverfond #menu {
+	position:absolute;
+	background-attachment:fixed;
+	top:100px;
+	left:60px;
+	color: #FFF; 
+	text-decoration: none;
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 0.85em;
+	font-size: 52px;
+}
+
+#jevoudraispascreverfond #menu a{
+	color: #FFF; 
+	text-decoration: none;
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 0.85em;
+	font-size: 46px;
+	opacity: 0.9;
+}
+
+#jevoudraispascreverfond #menu a:hover{
+	color: #800000;
+	opacity:0.8;
+}
+
+#jevoudraispascreverfond #content{
+	position:absolute;
+	top:400px;
+	left:60px;
+	height: 300px;
+	width:600px;
+	color: #FFF; 
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 1.2em;
+	font-weight:normal;
+	font-size: 15px;
+	opacity:0.99;
+	overflow:auto;
+}
+
+#jevoudraispascreverfoncé {
+	background-image:url(images/fonc%C3%A9jvpc.jpg);
+	overflow:hidden;
+	-webkit-background-size: cover; /* pour Chrome et Safari */
+  	-moz-background-size: cover; /* pour Firefox */
+  	-o-background-size: cover; /* pour Opera */
+  	background-size: cover;
+  	background-repeat: no-repeat; 
+}
+
+#jevoudraispascreverfoncé #menu {
+	position:absolute;
+	background-attachment:fixed;
+	top:100px;
+	left:60px;
+	color: #FFF; 
+	text-decoration: none;
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 0.85em;
+	font-size: 52px;
+}
+
+#jevoudraispascreverfoncé #menu a{
+	color: #FFF; 
+	text-decoration: none;
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 0.85em;
+	font-size: 46px;
+	opacity: 0.9;
+}
+
+#jevoudraispascreverfoncé #menu a:hover{
+	color: #800000;
+	opacity:0.8;
+}
+
+#jevoudraispascreverfoncé #content{
+	margin-top:100px;
+	width:600px;
+	height:600px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:350px;
+	color: #FFF; 
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 1.2em;
+	font-weight:normal;
+	font-size: 15px;
+	opacity:0.99;
+	overflow:auto;
+}
+
+/*Je voudrais pas crever - vidéo*/
+
+#jevoudraispascreverfoncé #contentvideo{
+	margin-top:50px;
+	width:600px;
+	height:600px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:280px;
+	color: #FFF; 
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 1.2em;
+	font-weight:normal;
+	font-size: 13px;
+	opacity:0.99;
+	overflow:auto;
+}
+
+/*Je voudrais pas crever - photo*/
+
+#jevoudraispascreverfoncé #contentphoto{
+	margin-top:20px;
+	width:500px;
+	height:650px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:280px;
+	color: #FFF; 
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 1.2em;
+	font-weight:normal;
+	font-size: 13px;
+	opacity:0.99;
+	overflow:auto;
+}
+
+/*Je voudrais pas crever - presse*/
+
+#jevoudraispascreverfoncé #contentpresse{
+	margin-top:100px;
+	width:600px;
+	height:600px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:280px;
+	color: #FFF; 
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 1.2em;
+	font-weight:normal;
+	font-size: 15px;
+	opacity:0.99;
+	overflow:auto;
+}
+
+/*Du pain plein les poches*/
+
+#dupainpleinlespochesfond {
+	background-image:url(images/fonddupainpleinlespoches.jpg);
+	overflow:hidden;
+	-webkit-background-size: cover; /* pour Chrome et Safari */
+  	-moz-background-size: cover; /* pour Firefox */
+  	-o-background-size: cover; /* pour Opera */
+  	background-size: cover;
+  	background-repeat: no-repeat; 
+}
+
+#dupainpleinlespochesfond #menu {
+	position:absolute;
+	top:100px;
+	left:60px;
+	color: #FFF; 
+	text-decoration: none;
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 0.85em;
+	font-size: 52px;
+}
+
+#dupainpleinlespochesfond #menu a{
+	color: #FFF; 
+	text-decoration: none;
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 0.85em;
+	font-size: 46px;
+	opacity: 0.9;
+}
+
+#dupainpleinlespochesfond #menu a:hover{
+	color: #800000;
+	opacity:0.8;
+}
+
+#dupainpleinlespochesfond #content{
+	position:absolute;
+	top:400px;
+	left:60px;
+	width:700px;
+	color: #FFF; 
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 1.2em;
+	font-weight:normal;
+	font-size: 15px;
+	opacity:0.99;
+}
+
+/*Du pain plein les poches - vidéo*/
+
+#dupainpleinlespochesfoncé #contentvideo{
+	margin-top:50px;
+	width:600px;
+	height:600px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:280px;
+	color: #FFF; 
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 1.2em;
+	font-weight:normal;
+	font-size: 13px;
+	opacity:0.99;
+	overflow:auto;
+}
+
+/*Du pain plein les poches - photo*/
+
+
+#dupainpleinlespochesfoncé #menu {
+	position:absolute;
+	top:100px;
+	left:60px;
+	color: #FFF; 
+	text-decoration: none;
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 0.85em;
+	font-size: 52px;
+}
+
+#dupainpleinlespochesfoncé #menu a{
+	color: #FFF; 
+	text-decoration: none;
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 0.85em;
+	font-size: 46px;
+	opacity: 0.9;
+}
+
+#dupainpleinlespochesfoncé #menu a:hover{
+	color: #800000;
+	opacity:0.8;
+}
+
+
+#dupainpleinlespochesfoncé {
+	background-image:url(images/fonc%C3%A9dppp.jpg);
+	overflow:hidden;
+	-webkit-background-size: cover; /* pour Chrome et Safari */
+  	-moz-background-size: cover; /* pour Firefox */
+  	-o-background-size: cover; /* pour Opera */
+  	background-size: cover;
+  	background-repeat: no-repeat; 
+}
+
+#dupainpleinlespochesfoncé #contentphoto{
+	margin-top:20px;
+	width:500px;
+	height:650px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:280px;
+	color: #FFF; 
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 1.2em;
+	font-weight:normal;
+	font-size: 13px;
+	opacity:0.99;
+	overflow:auto;
+}
+
+/*Du pain plein les poches - presse*/
+
+#dupainpleinlespochesfoncé #contentpresse{
+	margin-top:100px;
+	width:600px;
+	height:600px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:280px;
+	color: #FFF; 
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 1.2em;
+	font-weight:normal;
+	font-size: 15px;
+	opacity:0.99;
+	overflow:auto;
+}
+
+
+/*Matei Visniec*/
+
+#dupainpleinlespochesfoncé #content{
+	margin-top:100px;
+	width:600px;
+	height:600px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:500px;
+	color: #FFF; 
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 1.2em;
+	font-weight:normal;
+	font-size: 15px;
+	opacity:0.99;
+	overflow:auto;
+}
+/*Nuits blanches*/
+
+#nuitsblanchesfond {
+	background-image:url(images/fondnuitsblanches.jpg);
+	overflow:hidden;
+	-webkit-background-size: cover; /* pour Chrome et Safari */
+  	-moz-background-size: cover; /* pour Firefox */
+  	-o-background-size: cover; /* pour Opera */
+  	background-size: cover;
+  	background-repeat: no-repeat; 
+}
+
+#nuitsblanchesfond #menu {
+	position:absolute;
+	top:100px;
+	left:60px;
+	color: #FFF; 
+	text-decoration: none;
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 0.85em;
+	font-size: 52px;
+}
+
+#nuitsblanchesfond #menu a{
+	color: #FFF; 
+	text-decoration: none;
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 0.85em;
+	font-size: 46px;
+	opacity: 0.9;
+}
+
+#nuitsblanchesfond #menu a:hover{
+	color: #800000;
+	opacity:0.8;
+}
+
+#nuitsblanchesfond #content{
+	position:absolute;
+	top:400px;
+	left:60px;
+	width:600px;
+	color: #FFF; 
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 1.2em;
+	font-weight:normal;
+	font-size: 13px;
+	opacity:0.99;
+}
+
+/*Nuits blanches - photo*/
+
+#nuitsblanchesfond #contentphoto{
+	margin-top:20px;
+	width:500px;
+	height:650px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:280px;
+	color: #FFF; 
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 1.2em;
+	font-weight:normal;
+	font-size: 13px;
+	opacity:0.99;
+	overflow:auto;
+}
+
+/*Nuits blanches - presse*/
+
+#nuitsblanchesfond #contentpresse{
+	margin-top:100px;
+	width:600px;
+	height:600px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:280px;
+	color: #FFF; 
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 1.2em;
+	font-weight:normal;
+	font-size: 15px;
+	opacity:0.99;
+	overflow:auto;
+}
+
+#nuitsblanchesfoncé {
+	background-image:url(images/fonc%C3%A9nuitsblanches.jpg);
+	overflow:hidden;
+	-webkit-background-size: cover; /* pour Chrome et Safari */
+  	-moz-background-size: cover; /* pour Firefox */
+  	-o-background-size: cover; /* pour Opera */
+  	background-size: cover;
+  	background-repeat: no-repeat; 
+}
+
+#nuitsblanchesfoncé #menu {
+	position:absolute;
+	background-attachment:fixed;
+	top:100px;
+	left:60px;
+	color: #FFF; 
+	text-decoration: none;
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 0.85em;
+	font-size: 52px;
+}
+
+#nuitsblanchesfoncé #menu a{
+	color: #FFF; 
+	text-decoration: none;
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 0.85em;
+	font-size: 46px;
+	opacity: 0.9;
+}
+
+#nuitsblanchesfoncé #menu a:hover{
+	color: #800000;
+	opacity:0.8;
+}
+
+#nuitsblanchesfoncé #content{
+	margin-top:100px;
+	width:600px;
+	height:600px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:600px;
+	color: #FFF; 
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 1.2em;
+	font-weight:normal;
+	font-size: 15px;
+	opacity:0.99;
+	overflow:auto;
+}
+
+/*Je voudrais pas crever - vidéo*/
+
+#nuitsblanchesfoncé #contentvideo{
+	margin-top:50px;
+	width:600px;
+	height:600px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:280px;
+	color: #FFF; 
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 1.2em;
+	font-weight:normal;
+	font-size: 13px;
+	opacity:0.99;
+	overflow:auto;
+}
+
+/*Je voudrais pas crever - photo*/
+
+#nuitsblanchesfoncé #contentphoto{
+	margin-top:20px;
+	width:500px;
+	height:650px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:280px;
+	color: #FFF; 
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 1.2em;
+	font-weight:normal;
+	font-size: 13px;
+	opacity:0.99;
+	overflow:auto;
+}
+
+/*Je voudrais pas crever - presse*/
+
+#nuitsblanchesfoncé #contentpresse{
+	margin-top:100px;
+	width:600px;
+	height:600px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:280px;
+	color: #FFF; 
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 1.2em;
+	font-weight:normal;
+	font-size: 15px;
+	opacity:0.99;
+	overflow:auto;
+}
+
+/*Reste poli productions - bio*/
+
+#restepoliproductionbio {
+	background-image:url(images/fondrestepoliproductionsbio.jpg);
+	overflow:hidden;
+	-webkit-background-size: cover; /* pour Chrome et Safari */
+  	-moz-background-size: cover; /* pour Firefox */
+  	-o-background-size: cover; /* pour Opera */
+  	background-size: cover;
+  	background-repeat: no-repeat; 
+}
+
+#restepoliproductionbio #menu {
+	position:absolute;
+	background-attachment:fixed;
+	top:100px;
+	left:60px;
+	color: #FFF; 
+	text-decoration: none;
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 0.85em;
+	font-size: 52px;
+}
+
+#restepoliproductionbio #menu a{
+	color: #FFF; 
+	text-decoration: none;
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 0.85em;
+	font-size: 46px;
+	opacity: 0.9;
+}
+
+#restepoliproductionbio #menu a:hover{
+	color: #800000;
+	opacity:0.8;
+}
+
+#restepoliproductionbio #content{
+	margin-top:100px;
+	width:600px;
+	height:600px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:450px;
+	color: #FFF; 
+	font-family: "SpecialEliteRegular", Futura, Helvetica, Arial, sans-serif; 
+	line-height: 1.2em;
+	font-weight:normal;
+	font-size: 15px;
+	opacity:0.99;
+	overflow:auto;
+}
+
+
